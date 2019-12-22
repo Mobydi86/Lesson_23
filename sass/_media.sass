@@ -68,6 +68,44 @@
       max-width: 11rem
       width: 100%
 @media screen and ( max-width: 860px) //до 820px
+  .control
+    background-color: $dark
+    color: $light
+    &__video
+      margin-bottom: 2rem
+      min-height: 14.7587rem
+    &__text
+      font-size: 1rem
+      line-height: 1.8rem
+      margin-bottom: 1.8rem
+      &::before
+        margin-bottom: 0.9rem
+    &__button
+      order: 1
+      display: block
+      min-width: 100%
+      font-size: 0.94rem
+      padding: 1.15rem 0
+      margin-bottom: 1.85rem
+    &__input
+      &-name, &-phone
+        min-width: 100%
+      &-name
+        margin-bottom: 4.5rem
+    &-label
+      justify-content: center
+    &__form
+      margin-bottom: -6rem
+    &__policy
+      margin-bottom: 4.3rem
+      margin-left: -2.7rem
+      font-size: 1.15rem
+  .video
+    max-width: 100%
+    max-width: 100%
+    &__play 
+      width: 20%
+      height: 20%
   .nav
     display: none
   .menu
@@ -135,6 +173,8 @@
       width: 90.4% 
   .section
     &-title
+      &__image
+        margin-bottom: 2.8rem
       &__text
         max-width: 25.42rem
         line-height: 158.48%
@@ -148,7 +188,7 @@
       &--left
         text-align: center
       &__heading
-        font-size: 1.83rem
+        font-size: 1.57rem
       &__description
         margin: 1.3rem 0rem 0 1.4rem
         max-width: 21.06rem
