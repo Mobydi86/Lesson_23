@@ -710,7 +710,6 @@ img {
   margin-bottom: 4.428rem;
   max-width: 58.357rem;
   min-height: 31rem;
-  background: #131313 url("../img/video-mask.jpg") no-repeat center;
   box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15); }
   .control__video::before {
     position: absolute;
@@ -760,9 +759,11 @@ img {
   .control__policy-label {
     justify-content: center; }
 
-.video__play {
-  position: relative;
-  margin: auto; }
+.video__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .types__section-title {
   margin-bottom: 2rem; }
@@ -991,17 +992,14 @@ img {
     .control-label {
       justify-content: center; }
     .control__form {
-      margin-bottom: -6rem; }
+      margin-bottom: -7.7rem; }
     .control__policy {
       margin-bottom: 4.3rem;
       margin-left: -2.7rem;
       font-size: 1.15rem; }
-  .video {
-    max-width: 100%;
-    max-width: 100%; }
-    .video__play {
-      width: 20%;
-      height: 20%; }
+  .video__icon {
+    width: 30%;
+    height: 30%; }
   .nav {
     display: none; }
   .menu {
